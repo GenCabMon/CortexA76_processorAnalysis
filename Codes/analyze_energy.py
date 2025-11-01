@@ -118,6 +118,15 @@ def main(pattern="m5out*"):
     df = pd.DataFrame(rows)
     df.to_csv("out_data/energy_summary.csv", index=False)
 
+    # Agregar manualmente simulaciones externas del algoritmo recocido simulado
+    extra_rows = [
+        {"sim_dir": "rs_sim_1", "simSeconds": 0.12008, "Energy": 4.24447, "cpi": 1.24544, "ipc": 0.80293, "EDP": 5.28541},
+        {"sim_dir": "rs_sim_2", "simSeconds": 0.1292, "Energy": 4.5874, "cpi": None, "ipc": None, "EDP": None}
+    ]
+
+    df = pd.concat([df, pd.DataFrame(extra_rows)], ignore_index=True)
+
+
     # Scatter: performance vs energy. Use simSeconds (lower is better) — plot simSeconds on x, Energy on y.
     plt.figure(figsize=(6,5))
     have = df.dropna(subset=['simSeconds','Energy'])
