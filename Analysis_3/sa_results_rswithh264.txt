@@ -1,0 +1,104 @@
+SIMULATED ANNEALING RESULTS (PARALLEL VERSION)
+============================================================
+
+Best Objective: 2259.389141
+
+Best Configuration:
+  l1i_size: 64kB
+  l1i_assoc: 2
+  l1i_lat: 2
+  l1d_size: 32kB
+  l1d_assoc: 2
+  l1d_lat: 4
+  l2_size: 128kB
+  l2_assoc: 8
+  l2_lat: 2
+  l3_size: 4MB
+  l3_assoc: 128
+  l3_lat: 2
+  fetch_width: 7
+  decode_width: 3
+  rename_width: 6
+  commit_width: 3
+  dispatch_width: 8
+  issue_width: 2
+  wb_width: 5
+  fb_entries: 16
+  fq_entries: 30
+  iq_entries: 16
+  rob_entries: 16
+  lq_entries: 68
+  sq_entries: 69
+  btb_entries: 4096
+  ras_entries: 16
+  num_fu_cmp: 20
+  num_fu_intALU: 4
+  num_fu_intDIVMUL: 20
+  num_fu_FP_SIMD_ALU: 1
+  num_fu_read: 30
+  num_fu_write: 4
+  branch_predictor_type: 9
+
+History:
+  Iter 0: T=175.9153, Obj=3982.596932, Best=3982.596932, Valid=N/A, Failed=N/A
+  Iter 1: T=149.5280, Obj=3982.596932, Best=3982.596932, Valid=3, Failed=3
+  Iter 2: T=127.0988, Obj=3954.011368, Best=3954.011368, Valid=6, Failed=0
+  Iter 3: T=108.0340, Obj=3796.541362, Best=3796.541362, Valid=4, Failed=2
+  Iter 4: T=91.8289, Obj=3796.541362, Best=3796.541362, Valid=6, Failed=0
+  Iter 5: T=78.0546, Obj=3796.541362, Best=3796.541362, Valid=4, Failed=2
+  Iter 6: T=66.3464, Obj=3796.337670, Best=3796.337670, Valid=4, Failed=2
+  Iter 7: T=56.3944, Obj=3796.353439, Best=3796.337670, Valid=4, Failed=2
+  Iter 8: T=47.9353, Obj=3400.209013, Best=3400.209013, Valid=4, Failed=2
+  Iter 9: T=40.7450, Obj=3406.826281, Best=3400.209013, Valid=5, Failed=1
+  Iter 10: T=34.6332, Obj=3406.826281, Best=3400.209013, Valid=3, Failed=3
+  Iter 11: T=29.4382, Obj=3406.826281, Best=3400.209013, Valid=4, Failed=2
+  Iter 12: T=25.0225, Obj=3406.826281, Best=3400.209013, Valid=5, Failed=1
+  Iter 13: T=21.2691, Obj=2861.277794, Best=2861.277794, Valid=5, Failed=1
+  Iter 14: T=18.0788, Obj=2855.028149, Best=2855.028149, Valid=3, Failed=3
+  Iter 15: T=15.3669, Obj=2844.435795, Best=2844.435795, Valid=5, Failed=1
+  Iter 16: T=13.0619, Obj=2802.453913, Best=2802.453913, Valid=5, Failed=1
+  Iter 17: T=11.1026, Obj=2793.605740, Best=2793.605740, Valid=3, Failed=3
+  Iter 18: T=9.4372, Obj=2791.728777, Best=2791.728777, Valid=4, Failed=2
+  Iter 19: T=8.0216, Obj=2791.720308, Best=2791.720308, Valid=3, Failed=3
+  Iter 20: T=6.8184, Obj=2582.909511, Best=2582.909511, Valid=4, Failed=2
+  Iter 21: T=5.7956, Obj=2582.909511, Best=2582.909511, Valid=5, Failed=1
+  Iter 22: T=4.9263, Obj=2582.909511, Best=2582.909511, Valid=6, Failed=0
+  Iter 23: T=4.1873, Obj=2507.791397, Best=2507.791397, Valid=6, Failed=0
+  Iter 24: T=3.5592, Obj=2506.180720, Best=2506.180720, Valid=5, Failed=1
+  Iter 25: T=3.0254, Obj=2505.889585, Best=2505.889585, Valid=5, Failed=1
+  Iter 26: T=2.5716, Obj=2505.889585, Best=2505.889585, Valid=4, Failed=2
+  Iter 27: T=2.1858, Obj=2505.889585, Best=2505.889585, Valid=5, Failed=1
+  Iter 28: T=1.8579, Obj=2420.284585, Best=2420.284585, Valid=6, Failed=0
+  Iter 29: T=1.5793, Obj=2420.232819, Best=2420.232819, Valid=4, Failed=2
+  Iter 30: T=1.3424, Obj=2419.990716, Best=2419.990716, Valid=5, Failed=1
+  Iter 31: T=1.1410, Obj=2418.054228, Best=2418.054228, Valid=4, Failed=2
+  Iter 32: T=0.9699, Obj=2418.054228, Best=2418.054228, Valid=4, Failed=2
+  Iter 33: T=0.8244, Obj=2349.004363, Best=2349.004363, Valid=5, Failed=1
+  Iter 34: T=0.7007, Obj=2349.004363, Best=2349.004363, Valid=5, Failed=1
+  Iter 35: T=0.5956, Obj=2349.004363, Best=2349.004363, Valid=3, Failed=3
+  Iter 36: T=0.5063, Obj=2349.004363, Best=2349.004363, Valid=5, Failed=1
+  Iter 37: T=0.4303, Obj=2312.539047, Best=2312.539047, Valid=6, Failed=0
+  Iter 38: T=0.3658, Obj=2312.021439, Best=2312.021439, Valid=5, Failed=1
+  Iter 39: T=0.3109, Obj=2312.021439, Best=2312.021439, Valid=4, Failed=2
+  Iter 40: T=0.2643, Obj=2309.429990, Best=2309.429990, Valid=1, Failed=5
+  Iter 41: T=0.2246, Obj=2309.429990, Best=2309.429990, Valid=5, Failed=1
+  Iter 42: T=0.1909, Obj=2305.389769, Best=2305.389769, Valid=6, Failed=0
+  Iter 43: T=0.1623, Obj=2305.389769, Best=2305.389769, Valid=4, Failed=2
+  Iter 44: T=0.1380, Obj=2305.389769, Best=2305.389769, Valid=3, Failed=3
+  Iter 45: T=0.1173, Obj=2305.389769, Best=2305.389769, Valid=3, Failed=3
+  Iter 46: T=0.0997, Obj=2305.389769, Best=2305.389769, Valid=5, Failed=1
+  Iter 47: T=0.0847, Obj=2305.389769, Best=2305.389769, Valid=5, Failed=1
+  Iter 48: T=0.0720, Obj=2305.389769, Best=2305.389769, Valid=2, Failed=4
+  Iter 49: T=0.0612, Obj=2305.389769, Best=2305.389769, Valid=4, Failed=2
+  Iter 50: T=0.0520, Obj=2305.389769, Best=2305.389769, Valid=4, Failed=2
+  Iter 51: T=0.0442, Obj=2305.389769, Best=2305.389769, Valid=4, Failed=2
+  Iter 52: T=0.0376, Obj=2302.703928, Best=2302.703928, Valid=6, Failed=0
+  Iter 53: T=0.0320, Obj=2302.703928, Best=2302.703928, Valid=6, Failed=0
+  Iter 54: T=0.0272, Obj=2302.696705, Best=2302.696705, Valid=6, Failed=0
+  Iter 55: T=0.0231, Obj=2302.696892, Best=2302.696705, Valid=2, Failed=4
+  Iter 56: T=0.0196, Obj=2302.696892, Best=2302.696705, Valid=3, Failed=3
+  Iter 57: T=0.0167, Obj=2275.387518, Best=2275.387518, Valid=4, Failed=2
+  Iter 58: T=0.0142, Obj=2275.387518, Best=2275.387518, Valid=4, Failed=2
+  Iter 59: T=0.0121, Obj=2275.387518, Best=2275.387518, Valid=3, Failed=3
+  Iter 60: T=0.0102, Obj=2275.387518, Best=2275.387518, Valid=3, Failed=3
+  Iter 61: T=0.0087, Obj=2259.389141, Best=2259.389141, Valid=4, Failed=2

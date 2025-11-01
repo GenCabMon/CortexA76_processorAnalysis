@@ -1,0 +1,17 @@
+{
+  "best_performance":[
+    "m5out_opt_low_latency",
+    "m5out_bp_TAGE_SC_L_64KB",
+    "m5out_bp_TAGE_SC_L_8KB"
+  ],
+  "best_energy":[
+    "m5out_bp_TAGE_SC_L_64KB",
+    "m5out_bp_TAGE_SC_L_8KB",
+    "m5out_bp_LTAGE"
+  ],
+  "best_EDP":[
+    "m5out_opt_low_latency",
+    "m5out_bp_TAGE_SC_L_64KB",
+    "m5out_bp_TAGE_SC_L_8KB"
+  ]
+}

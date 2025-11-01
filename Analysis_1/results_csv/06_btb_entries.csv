@@ -1,0 +1,7 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+BTB_1024,btb_1024,"BTB: 1024 + BP: BiMode","--branch_predictor_type=0 --btb_entries=1024",0.143045,639.08,1.483609,0.674032,7861131,0,7861131,202556216,213325008,0
+BTB_2048,btb_2048,"BTB: 2048 + BP: BiMode","--branch_predictor_type=0 --btb_entries=2048",0.141491,627.17,1.467494,0.681434,7559143,0,7559143,202556216,213325008,0
+BTB_4096,btb_4096,"BTB: 4096 + BP: BiMode","--branch_predictor_type=0 --btb_entries=4096",0.141381,625.06,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+BTB_8192,btb_8192,"BTB: 8192 + BP: BiMode","--branch_predictor_type=0 --btb_entries=8192",0.141239,622.26,1.464885,0.682648,7501664,0,7501664,202556216,213325008,0
+BTB_16384,btb_16384,"BTB: 16384 + BP: BiMode","--branch_predictor_type=0 --btb_entries=16384",0.141450,625.80,1.467065,0.681633,7523800,0,7523800,202556216,213325008,0
+BTB_32768,btb_32768,"BTB: 32768 + BP: BiMode","--branch_predictor_type=0 --btb_entries=32768",0.141521,624.94,1.467807,0.681288,7532162,0,7532162,202556216,213325008,0

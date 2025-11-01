@@ -1,0 +1,57 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+BP_0,bp_BiMode,"Branch Predictor: BiMode","--branch_predictor_type=0",0.141381,620.04,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+BP_1,bp_LTAGE,"Branch Predictor: LTAGE","--branch_predictor_type=1",0.132687,645.40,1.376186,0.726646,6111940,0,6111940,202556216,213325008,0
+BP_2,bp_Local,"Branch Predictor: Local","--branch_predictor_type=2",0.142282,631.56,1.475702,0.677643,7602794,0,7602794,202556216,213325008,0
+BP_3,bp_MPP64KB,"Branch Predictor: MPP64KB","--branch_predictor_type=3",0.152671,924.01,1.583451,0.631532,9536562,0,9536562,202556216,213325008,0
+BP_4,bp_MPP8KB,"Branch Predictor: MPP8KB","--branch_predictor_type=4",0.147076,736.11,1.525421,0.655557,8386903,0,8386903,202556216,213325008,0
+BP_5,bp_MPPTAGE64KB,"Branch Predictor: MPPTAGE64KB","--branch_predictor_type=5",0.140587,712.13,1.458117,0.685816,6685976,0,6685976,202556216,213325008,0
+BP_6,bp_MPPTAGE8KB,"Branch Predictor: MPPTAGE8KB","--branch_predictor_type=6",0.143350,682.96,1.486779,0.672595,7109795,0,7109795,202556216,213325008,0
+BP_7,bp_TAGE,"Branch Predictor: TAGE","--branch_predictor_type=7",0.134745,628.20,1.397531,0.715548,6384336,0,6384336,202556216,213325008,0
+BP_8,bp_TAGE_SC_L_64KB,"Branch Predictor: TAGE_SC_L_64KB","--branch_predictor_type=8",0.129651,751.59,1.344692,0.743665,5730332,0,5730332,202556216,213325008,0
+BP_9,bp_TAGE_SC_L_8KB,"Branch Predictor: TAGE_SC_L_8KB","--branch_predictor_type=9",0.132055,750.66,1.369624,0.730128,6063705,0,6063705,202556216,213325008,0
+BP_10,bp_Tournament,"Branch Predictor: Tournament","--branch_predictor_type=10",0.140723,629.65,1.459528,0.685153,7495713,0,7495713,202556216,213325008,0
+L1I_32kB,l1i_32kB,"L1I: 32kB + BP: BiMode","--branch_predictor_type=0 --l1i_size=32kB",0.141493,629.43,1.467520,0.681422,7532236,0,7532236,202556216,213325008,0
+L1I_64kB,l1i_64kB,"L1I: 64kB + BP: BiMode","--branch_predictor_type=0 --l1i_size=64kB",0.141381,630.21,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+L1I_128kB,l1i_128kB,"L1I: 128kB + BP: BiMode","--branch_predictor_type=0 --l1i_size=128kB",0.141362,630.36,1.466156,0.682056,7532616,0,7532616,202556216,213325008,0
+L1I_256kB,l1i_256kB,"L1I: 256kB + BP: BiMode","--branch_predictor_type=0 --l1i_size=256kB",0.141353,630.34,1.466066,0.682098,7532541,0,7532541,202556216,213325008,0
+L1D_32kB,l1d_32kB,"L1D: 32kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=32kB",0.141857,643.72,1.471285,0.679678,7533082,0,7533082,202556216,213325008,0
+L1D_64kB,l1d_64kB,"L1D: 64kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=64kB",0.141381,631.12,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+L1D_128kB,l1d_128kB,"L1D: 128kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=128kB",0.141326,637.39,1.465784,0.682229,7532565,0,7532565,202556216,213325008,0
+L1D_256kB,l1d_256kB,"L1D: 256kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=256kB",0.141218,625.05,1.464659,0.682753,7532169,0,7532169,202556216,213325008,0
+L2_128kB,l2_128kB,"L2: 128kB + BP: BiMode","--branch_predictor_type=0 --l2_size=128kB",0.141465,635.89,1.467229,0.681557,7532715,0,7532715,202556216,213325008,0
+L2_256kB,l2_256kB,"L2: 256kB + BP: BiMode","--branch_predictor_type=0 --l2_size=256kB",0.141381,638.76,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+L2_512kB,l2_512kB,"L2: 512kB + BP: BiMode","--branch_predictor_type=0 --l2_size=512kB",0.141212,625.24,1.464605,0.682778,7532453,0,7532453,202556216,213325008,0
+L2_1MB,l2_1MB,"L2: 1MB + BP: BiMode","--branch_predictor_type=0 --l2_size=1MB",0.140784,634.72,1.460156,0.684858,7532305,0,7532305,202556216,213325008,0
+L3_1MB,l3_1MB,"L3: 1MB + BP: BiMode","--branch_predictor_type=0 --l3_size=1MB",0.141839,633.28,1.471104,0.679762,7534762,0,7534762,202556216,213325008,0
+L3_2MB,l3_2MB,"L3: 2MB + BP: BiMode","--branch_predictor_type=0 --l3_size=2MB",0.141381,631.31,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+L3_4MB,l3_4MB,"L3: 4MB + BP: BiMode","--branch_predictor_type=0 --l3_size=4MB",0.140311,632.67,1.455251,0.687167,7529950,0,7529950,202556216,213325008,0
+BTB_1024,btb_1024,"BTB: 1024 + BP: BiMode","--branch_predictor_type=0 --btb_entries=1024",0.143045,639.08,1.483609,0.674032,7861131,0,7861131,202556216,213325008,0
+BTB_2048,btb_2048,"BTB: 2048 + BP: BiMode","--branch_predictor_type=0 --btb_entries=2048",0.141491,627.17,1.467494,0.681434,7559143,0,7559143,202556216,213325008,0
+BTB_4096,btb_4096,"BTB: 4096 + BP: BiMode","--branch_predictor_type=0 --btb_entries=4096",0.141381,625.06,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+BTB_8192,btb_8192,"BTB: 8192 + BP: BiMode","--branch_predictor_type=0 --btb_entries=8192",0.141239,622.26,1.464885,0.682648,7501664,0,7501664,202556216,213325008,0
+BTB_16384,btb_16384,"BTB: 16384 + BP: BiMode","--branch_predictor_type=0 --btb_entries=16384",0.141450,625.80,1.467065,0.681633,7523800,0,7523800,202556216,213325008,0
+BTB_32768,btb_32768,"BTB: 32768 + BP: BiMode","--branch_predictor_type=0 --btb_entries=32768",0.141521,624.94,1.467807,0.681288,7532162,0,7532162,202556216,213325008,0
+ALU_1,alu_1,"ALU: 1 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=1",0.142379,634.37,1.476705,0.677183,7523905,0,7523905,202556216,213325008,0
+ALU_2,alu_2,"ALU: 2 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=2",0.141381,628.49,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+ALU_3,alu_3,"ALU: 3 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=3",0.141233,638.96,1.464816,0.682679,7529212,0,7529212,202556216,213325008,0
+ALU_4,alu_4,"ALU: 4 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=4",0.141229,641.27,1.464778,0.682697,7529283,0,7529283,202556216,213325008,0
+PIPE_2,pipe_2,"Pipeline: 2-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=2 --decode_width=2 --rename_width=2 --commit_width=2",0.154309,620.94,1.600434,0.624831,7464782,0,7464782,202556216,213325008,0
+PIPE_4,pipe_4,"Pipeline: 4-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=4 --decode_width=4 --rename_width=4 --commit_width=4",0.141381,627.64,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+PIPE_6,pipe_6,"Pipeline: 6-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --rename_width=6 --commit_width=6",0.140294,636.51,1.455081,0.687247,7554783,0,7554783,202556216,213325008,0
+PIPE_8,pipe_8,"Pipeline: 8-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=8 --decode_width=8 --rename_width=8 --commit_width=8",0.140178,637.20,1.453871,0.687819,7556146,0,7556146,202556216,213325008,0
+PIPE_mixed1,pipe_mixed_narrow,"Pipeline: Wide front + BP: BiMode","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --issue_width=8 --commit_width=4",0.140656,643.17,1.458836,0.685478,7549345,0,7549345,202556216,213325008,0
+PIPE_mixed2,pipe_mixed_wide,"Pipeline: Wide back + BP: BiMode","--branch_predictor_type=0 --fetch_width=4 --decode_width=4 --issue_width=12 --commit_width=6",0.141388,628.07,1.466421,0.681932,7532580,0,7532580,202556216,213325008,0
+ROB_64,rob_64,"ROB: 64 + BP: BiMode","--branch_predictor_type=0 --rob_entries=64",0.141421,635.35,1.466765,0.681773,7529951,0,7529951,202556216,213325008,0
+ROB_256,rob_256,"ROB: 256 + BP: BiMode","--branch_predictor_type=0 --rob_entries=256",0.141363,628.93,1.466166,0.682051,7534601,0,7534601,202556216,213325008,0
+LSQ_small,lsq_small,"LSQ: 32/32 + BP: BiMode","--branch_predictor_type=0 --lq_entries=32 --sq_entries=32",0.141555,623.33,1.468154,0.681127,7532574,0,7532574,202556216,213325008,0
+LSQ_large,lsq_large,"LSQ: 128/128 + BP: BiMode","--branch_predictor_type=0 --lq_entries=128 --sq_entries=128",0.141362,629.08,1.466154,0.682057,7532661,0,7532661,202556216,213325008,0
+OPT_01,opt_best_cache,"Large Caches + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --l2_size=512kB",0.141155,632.39,1.464005,0.683058,7532477,0,7532477,202556216,213325008,0
+OPT_02,opt_wide_pipeline,"Wide Pipeline + Best BP","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --issue_width=10 --commit_width=6 --rob_entries=192",0.140646,636.22,1.458726,0.685530,7551178,0,7551178,202556216,213325008,0
+OPT_03,opt_memory_hierarchy,"Large Memory + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --l2_size=1MB --l3_size=4MB",0.139679,637.72,1.448700,0.690274,7529816,0,7529816,202556216,213325008,0
+OPT_04,opt_execution_units,"More Exec Units + Best BP","--branch_predictor_type=0 --num_fu_intALU=3 --num_fu_FP_SIMD_ALU=3 --num_fu_read=3 --num_fu_write=2",0.141170,626.79,1.464163,0.682984,7528665,0,7528665,202556216,213325008,0
+OPT_05,opt_branch_hardware,"Enhanced Branch HW + Best BP","--branch_predictor_type=0 --btb_entries=16384 --ras_entries=32",0.141450,634.94,1.467065,0.681633,7523800,0,7523800,202556216,213325008,0
+OPT_06,opt_low_latency,"Low Latency + Best BP","--branch_predictor_type=0 --l1i_lat=1 --l1d_lat=2 --l2_lat=6",0.112983,665.69,1.171814,0.853378,7619893,0,7619893,202556216,213325008,0
+OPT_07,opt_balanced,"Balanced Config + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --num_fu_intALU=3 --btb_entries=8192",0.141021,622.84,1.462623,0.683703,7498025,0,7498025,202556216,213325008,0
+OPT_08,opt_aggressive,"Aggressive Perf + Best BP","--branch_predictor_type=0 --l1i_size=256kB --l1d_size=256kB --l2_size=1MB --fetch_width=8 --issue_width=12",0.139900,636.77,1.450997,0.689181,7551010,0,7551010,202556216,213325008,0
+OPT_09,opt_efficiency,"Efficiency + Best BP","--branch_predictor_type=0 --l1i_size=32kB --l1d_size=32kB --fetch_width=2 --issue_width=4",0.154162,624.19,1.598910,0.625426,7462784,0,7462784,202556216,213325008,0
+OPT_10,opt_ultimate,"Ultimate Performance","--branch_predictor_type=0 --l1i_size=256kB --l1d_size=256kB --l2_size=1MB --l3_size=4MB --btb_entries=32768 --num_fu_intALU=4 --fetch_width=8 --issue_width=12 --rob_entries=256",0.138805,621.05,1.439637,0.694619,7545713,0,7545713,202556216,213325008,0

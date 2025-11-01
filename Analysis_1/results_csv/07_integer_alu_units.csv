@@ -1,0 +1,5 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+ALU_1,alu_1,"ALU: 1 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=1",0.142379,634.37,1.476705,0.677183,7523905,0,7523905,202556216,213325008,0
+ALU_2,alu_2,"ALU: 2 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=2",0.141381,628.49,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+ALU_3,alu_3,"ALU: 3 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=3",0.141233,638.96,1.464816,0.682679,7529212,0,7529212,202556216,213325008,0
+ALU_4,alu_4,"ALU: 4 units + BP: BiMode","--branch_predictor_type=0 --num_fu_intALU=4",0.141229,641.27,1.464778,0.682697,7529283,0,7529283,202556216,213325008,0

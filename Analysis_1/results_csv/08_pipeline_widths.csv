@@ -1,0 +1,7 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+PIPE_2,pipe_2,"Pipeline: 2-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=2 --decode_width=2 --rename_width=2 --commit_width=2",0.154309,620.94,1.600434,0.624831,7464782,0,7464782,202556216,213325008,0
+PIPE_4,pipe_4,"Pipeline: 4-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=4 --decode_width=4 --rename_width=4 --commit_width=4",0.141381,627.64,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+PIPE_6,pipe_6,"Pipeline: 6-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --rename_width=6 --commit_width=6",0.140294,636.51,1.455081,0.687247,7554783,0,7554783,202556216,213325008,0
+PIPE_8,pipe_8,"Pipeline: 8-wide + BP: BiMode","--branch_predictor_type=0 --fetch_width=8 --decode_width=8 --rename_width=8 --commit_width=8",0.140178,637.20,1.453871,0.687819,7556146,0,7556146,202556216,213325008,0
+PIPE_mixed1,pipe_mixed_narrow,"Pipeline: Wide front + BP: BiMode","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --issue_width=8 --commit_width=4",0.140656,643.17,1.458836,0.685478,7549345,0,7549345,202556216,213325008,0
+PIPE_mixed2,pipe_mixed_wide,"Pipeline: Wide back + BP: BiMode","--branch_predictor_type=0 --fetch_width=4 --decode_width=4 --issue_width=12 --commit_width=6",0.141388,628.07,1.466421,0.681932,7532580,0,7532580,202556216,213325008,0

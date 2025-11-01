@@ -1,0 +1,5 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+ROB_64,rob_64,"ROB: 64 + BP: BiMode","--branch_predictor_type=0 --rob_entries=64",0.141421,635.35,1.466765,0.681773,7529951,0,7529951,202556216,213325008,0
+ROB_256,rob_256,"ROB: 256 + BP: BiMode","--branch_predictor_type=0 --rob_entries=256",0.141363,628.93,1.466166,0.682051,7534601,0,7534601,202556216,213325008,0
+LSQ_small,lsq_small,"LSQ: 32/32 + BP: BiMode","--branch_predictor_type=0 --lq_entries=32 --sq_entries=32",0.141555,623.33,1.468154,0.681127,7532574,0,7532574,202556216,213325008,0
+LSQ_large,lsq_large,"LSQ: 128/128 + BP: BiMode","--branch_predictor_type=0 --lq_entries=128 --sq_entries=128",0.141362,629.08,1.466154,0.682057,7532661,0,7532661,202556216,213325008,0

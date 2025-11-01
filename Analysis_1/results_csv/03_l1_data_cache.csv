@@ -1,0 +1,5 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+L1D_32kB,l1d_32kB,"L1D: 32kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=32kB",0.141857,643.72,1.471285,0.679678,7533082,0,7533082,202556216,213325008,0
+L1D_64kB,l1d_64kB,"L1D: 64kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=64kB",0.141381,631.12,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+L1D_128kB,l1d_128kB,"L1D: 128kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=128kB",0.141326,637.39,1.465784,0.682229,7532565,0,7532565,202556216,213325008,0
+L1D_256kB,l1d_256kB,"L1D: 256kB + BP: BiMode","--branch_predictor_type=0 --l1d_size=256kB",0.141218,625.05,1.464659,0.682753,7532169,0,7532169,202556216,213325008,0

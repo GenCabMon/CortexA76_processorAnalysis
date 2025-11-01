@@ -1,0 +1,40 @@
+============================================================
+ESTADÍSTICAS: 10 OPTIMIZATIONS
+============================================================
+
+CPI:
+  ✅ Mejor:  opt_low_latency: 1.171814
+  ❌ Peor:   opt_efficiency: 1.598910
+  📈 Mejora: 26.71%
+
+IPC:
+  ✅ Mejor:  opt_low_latency: 0.853378
+  ❌ Peor:   opt_efficiency: 0.625426
+  📈 Mejora: 36.45%
+
+SimSeconds:
+  ✅ Mejor:  opt_low_latency: 0.112983
+  ❌ Peor:   opt_efficiency: 0.154162
+  📈 Mejora: 26.71%
+
+BranchMispreds:
+  ✅ Mejor:  opt_efficiency: 7462784.000000
+  ❌ Peor:   opt_low_latency: 7619893.000000
+  📈 Mejora: 2.06%
+
+============================================================
+RANKING COMPLETO (ordenado por SimSeconds)
+============================================================
+
+#    Nombre                    SimSec       CPI        IPC       
+------------------------------------------------------------
+1    opt_low_latency           0.112983     1.1718     0.8534    
+2    opt_ultimate              0.138805     1.4396     0.6946    
+3    opt_memory_hierarchy      0.139679     1.4487     0.6903    
+4    opt_aggressive            0.139900     1.4510     0.6892    
+5    opt_wide_pipeline         0.140646     1.4587     0.6855    
+6    opt_balanced              0.141021     1.4626     0.6837    
+7    opt_best_cache            0.141155     1.4640     0.6831    
+8    opt_execution_units       0.141170     1.4642     0.6830    
+9    opt_branch_hardware       0.141450     1.4671     0.6816    
+10   opt_efficiency            0.154162     1.5989     0.6254    

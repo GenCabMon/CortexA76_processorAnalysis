@@ -1,0 +1,11 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+OPT_01,opt_best_cache,"Large Caches + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --l2_size=512kB",0.141155,632.39,1.464005,0.683058,7532477,0,7532477,202556216,213325008,0
+OPT_02,opt_wide_pipeline,"Wide Pipeline + Best BP","--branch_predictor_type=0 --fetch_width=6 --decode_width=6 --issue_width=10 --commit_width=6 --rob_entries=192",0.140646,636.22,1.458726,0.685530,7551178,0,7551178,202556216,213325008,0
+OPT_03,opt_memory_hierarchy,"Large Memory + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --l2_size=1MB --l3_size=4MB",0.139679,637.72,1.448700,0.690274,7529816,0,7529816,202556216,213325008,0
+OPT_04,opt_execution_units,"More Exec Units + Best BP","--branch_predictor_type=0 --num_fu_intALU=3 --num_fu_FP_SIMD_ALU=3 --num_fu_read=3 --num_fu_write=2",0.141170,626.79,1.464163,0.682984,7528665,0,7528665,202556216,213325008,0
+OPT_05,opt_branch_hardware,"Enhanced Branch HW + Best BP","--branch_predictor_type=0 --btb_entries=16384 --ras_entries=32",0.141450,634.94,1.467065,0.681633,7523800,0,7523800,202556216,213325008,0
+OPT_06,opt_low_latency,"Low Latency + Best BP","--branch_predictor_type=0 --l1i_lat=1 --l1d_lat=2 --l2_lat=6",0.112983,665.69,1.171814,0.853378,7619893,0,7619893,202556216,213325008,0
+OPT_07,opt_balanced,"Balanced Config + Best BP","--branch_predictor_type=0 --l1i_size=128kB --l1d_size=128kB --num_fu_intALU=3 --btb_entries=8192",0.141021,622.84,1.462623,0.683703,7498025,0,7498025,202556216,213325008,0
+OPT_08,opt_aggressive,"Aggressive Perf + Best BP","--branch_predictor_type=0 --l1i_size=256kB --l1d_size=256kB --l2_size=1MB --fetch_width=8 --issue_width=12",0.139900,636.77,1.450997,0.689181,7551010,0,7551010,202556216,213325008,0
+OPT_09,opt_efficiency,"Efficiency + Best BP","--branch_predictor_type=0 --l1i_size=32kB --l1d_size=32kB --fetch_width=2 --issue_width=4",0.154162,624.19,1.598910,0.625426,7462784,0,7462784,202556216,213325008,0
+OPT_10,opt_ultimate,"Ultimate Performance","--branch_predictor_type=0 --l1i_size=256kB --l1d_size=256kB --l2_size=1MB --l3_size=4MB --btb_entries=32768 --num_fu_intALU=4 --fetch_width=8 --issue_width=12 --rob_entries=256",0.138805,621.05,1.439637,0.694619,7545713,0,7545713,202556216,213325008,0

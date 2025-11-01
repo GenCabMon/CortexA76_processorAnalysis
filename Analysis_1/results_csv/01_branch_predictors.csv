@@ -1,0 +1,12 @@
+SimID,Name,Description,Parameters,SimSeconds,HostSeconds,CPI,IPC,BranchMispreds,BTBMispreds,PredictorMispreds,NumInsts,NumOps,ExitCode
+BP_0,bp_BiMode,"Branch Predictor: BiMode","--branch_predictor_type=0",0.141381,620.04,1.466354,0.681964,7532551,0,7532551,202556216,213325008,0
+BP_1,bp_LTAGE,"Branch Predictor: LTAGE","--branch_predictor_type=1",0.132687,645.40,1.376186,0.726646,6111940,0,6111940,202556216,213325008,0
+BP_2,bp_Local,"Branch Predictor: Local","--branch_predictor_type=2",0.142282,631.56,1.475702,0.677643,7602794,0,7602794,202556216,213325008,0
+BP_3,bp_MPP64KB,"Branch Predictor: MPP64KB","--branch_predictor_type=3",0.152671,924.01,1.583451,0.631532,9536562,0,9536562,202556216,213325008,0
+BP_4,bp_MPP8KB,"Branch Predictor: MPP8KB","--branch_predictor_type=4",0.147076,736.11,1.525421,0.655557,8386903,0,8386903,202556216,213325008,0
+BP_5,bp_MPPTAGE64KB,"Branch Predictor: MPPTAGE64KB","--branch_predictor_type=5",0.140587,712.13,1.458117,0.685816,6685976,0,6685976,202556216,213325008,0
+BP_6,bp_MPPTAGE8KB,"Branch Predictor: MPPTAGE8KB","--branch_predictor_type=6",0.143350,682.96,1.486779,0.672595,7109795,0,7109795,202556216,213325008,0
+BP_7,bp_TAGE,"Branch Predictor: TAGE","--branch_predictor_type=7",0.134745,628.20,1.397531,0.715548,6384336,0,6384336,202556216,213325008,0
+BP_8,bp_TAGE_SC_L_64KB,"Branch Predictor: TAGE_SC_L_64KB","--branch_predictor_type=8",0.129651,751.59,1.344692,0.743665,5730332,0,5730332,202556216,213325008,0
+BP_9,bp_TAGE_SC_L_8KB,"Branch Predictor: TAGE_SC_L_8KB","--branch_predictor_type=9",0.132055,750.66,1.369624,0.730128,6063705,0,6063705,202556216,213325008,0
+BP_10,bp_Tournament,"Branch Predictor: Tournament","--branch_predictor_type=10",0.140723,629.65,1.459528,0.685153,7495713,0,7495713,202556216,213325008,0
